@@ -123,6 +123,7 @@ Use putty
 ```
 
 ## Step-06: Update Worker Nodes Security Group to allow all traffic
+(for this select security group with word *remote* and do below so that nodeport service can work)
 - We need to allow `All Traffic` on worker node security group
 
 ## Additional References
