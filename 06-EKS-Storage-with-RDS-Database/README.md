@@ -61,7 +61,7 @@
 - Click on Create Database
 
 ### Edit Database Security to Allow Access from 0.0.0.0/0
-- Go to **EC2 -> Security Groups -> eks-rds-db-securitygroup** 
+- Go to **EC2 -> Security Groups -> eks-rds-db-securitygroup** and eksctl-eksdemo1-nodegroup-eksdemo1-ng-public1-remoteAccess
 - **Edit Inboud Rules**
   - **Source:** Anywhere (0.0.0.0/0)  (Allow access from everywhere for now)
 
