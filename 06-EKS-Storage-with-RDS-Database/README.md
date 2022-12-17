@@ -78,6 +78,8 @@ spec:
   type: ExternalName
   externalName: usermgmtdb.c7hldelt9xfp.us-east-1.rds.amazonaws.com
 ```
+externalName: db endpoint(DNS)
+
  - **Deploy Manifest**
 ```
 kubectl apply -f kube-manifests/01-MySQL-externalName-Service.yml
