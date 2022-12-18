@@ -88,7 +88,7 @@ Observation:
 
 # Configure kubeconfig for kubectl
 eksctl get cluster # TO GET CLUSTER NAME
-aws eks --region <region-code> update-kubeconfig --name <cluster_name>
+aws eks --region <region-code> update-kubeconfig --name <cluster_name> and kube config path cat $HOME/.kube/config
 aws eks --region us-east-1 update-kubeconfig --name eksdemo1
 
 # Verify EKS Nodes in EKS Cluster using kubectl
